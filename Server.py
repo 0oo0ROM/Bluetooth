@@ -6,7 +6,7 @@ class Server:
     def __init__(self, mac, port):
         self.HostMAC = mac
         self.port = port
-        self.backlog = 1
+        self.backlog = 10
         self.size = 1024
 
     def config_server(self):
